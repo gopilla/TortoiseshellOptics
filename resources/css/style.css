@@ -8,32 +8,37 @@ html {
   background-position: center;
   background-size: cover;
   height: 30rem;
+  display: flex;
+  justify-content: center;
 }
 .container {
   width: 960px;
   display: flex;
   justify-content: center;
   padding-top: 1rem;
+  border: 1px solid black;
 }
 
 .header {
+  width: inherit;
+  height: 3.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: cadetblue;
   font-family: Helvetica;
   font-size: 1rem;
   color: white;
-  padding: 1rem 2rem 1rem 2rem;
+  border: 1px solid red;
+}
+.logo{
+  display: flex;
+  align-items: center;
 }
 .header img{
   padding-left: 2rem;
   padding-right: 1rem;
   height: 1.5rem;
-}
-.header nav{
-  display: flex;
-  justify-content: flex-end;
-
 }
 .navbar span{
   padding-right: 2rem;
