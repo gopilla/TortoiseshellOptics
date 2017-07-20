@@ -11,18 +11,13 @@ html {
   display: flex;
   justify-content: center;
 }
-.container {
-  width: 960px;
-  display: flex;
-  justify-content: center;
-  padding-top: 1rem;
-  border: 1px solid black;
-}
+
 
 .header {
-  width: inherit;
+  width: 960px;
   height: 3.5rem;
   display: flex;
+  margin-top: 1rem;
   justify-content: space-between;
   align-items: center;
   background-color: cadetblue;
