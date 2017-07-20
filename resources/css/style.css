@@ -1,4 +1,5 @@
 html {
+  font-family: Helvetica;
   font-size: 18px;
   line-height: 1.4;
 }
@@ -50,4 +51,43 @@ html {
   font-size: 2rem;
   line-height: 1.2rem;
   background-color: white;
+}
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solig black;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  height: 8rem;
+  margin: 3rem 0;
+  border: 1px solid red;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  margin-right: 6rem;
+  border: 1px solid green;
+
+}
+.icon span{
+  text-align: center;
+}
+.paper{
+  width: 3.5rem;
+
+}
+.ruler{
+  width: 5rem;
+}
+.truck{
+  width: 5rem;
 }
