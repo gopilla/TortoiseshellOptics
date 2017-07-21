@@ -109,3 +109,17 @@ html {
 .text p{
   padding-top: 1rem;
 }
+.box.footer{
+  margin-top: 5rem;
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 960px;
+
+}
+.footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
+}
