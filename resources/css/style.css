@@ -53,19 +53,15 @@ html {
   background-color: white;
 }
 
-.services{
+.container{
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border: 1px solig black;
 }
 .box{
   display: flex;
   justify-content: center;
   width: 960px;
-
-
 }
 .icon{
   display: flex;
@@ -91,4 +87,25 @@ html {
 }
 .truck{
   width: 5rem;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+    width: 35%;
+}
+.text.left{
+  margin-right: 5%;
+}
+.text span{
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+
+}
+.text p{
+  padding-top: 1rem;
 }
