@@ -12,7 +12,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
 
 }
 
@@ -38,6 +37,9 @@ html {
   padding-right: 1rem;
   height: 1.5rem;
 
+}
+.menu{
+  display: none;
 }
 .navbar span{
   padding-right: 2rem;
@@ -140,5 +142,30 @@ html {
   margin-right: 2rem;
   font-size: 1.33rem;
   padding: 0.75rem 4rem;
+}
+}
+@media only screen and (max-width: 480px){
+.photobanner{
+  background-position: 20%;
+  height: 17rem;
+}
+.See{
+  margin-top: 9rem;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu{
+  display: block;
+}
+.navbar nav{
+  display: none;
 }
 }
