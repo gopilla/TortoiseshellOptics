@@ -156,7 +156,6 @@ html {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 1rem;
-  text-align: center;
   display: flex;
   justify-content: center;
 
@@ -168,4 +167,44 @@ html {
 .navbar nav{
   display: none;
 }
+.fdbreak{
+  display: none;
+}
+.icon{
+  flex-direction: column;
+  margin-bottom: 1.54rem;
+
+  width: 100%;
+}
+
+.box{
+width: 100%;
+display: block;
+}
+.box.mobile-pics{
+  width: 100%%;
+  padding-top: 3.77rem;
+  padding-bottom: 2.23rem;
+  font-size: 0.77rem;
+  font-family: Helvetica;
+
+}
+.text{
+  width: 100%;
+}
+.text span{
+  width: auto;
+}
+.text p{
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  padding-left: 0.75rem;
+}
+.box.footer{
+  justify-content: center;
+}
+.copyright{
+  display: none;
+}
+
 }
